@@ -3,28 +3,29 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-#define MAX 1002
+#define MAX 10001
 #define endl '\n'
 using namespace std;
-typedef pair<int, int> pii;
 bool Visit[MAX];
-vector<pair<int, int>> Cost[MAX];
+vector<pair<int, long long>> Cost[MAX];
 int minCost;
 
 void Prim(int start)
 {
 	priority_queue<pair<int, int>> PQ;
+	//priority_queue<pair<int, int>, vector<pair<int, int>>> PQ;
+	//priority_queue<pii, vector<pii>, greater<pii>> PQ;
 	for (int i = 0; i < Cost[start].size(); i++) //size(): # of elements
 	{
-		int Next = Cost[start][i].first; 
-		int Distance = Cost[start][i].second;
+		int Next = Cost[start][i].first;
+		long long Distance = Cost[start][i].second;
 		PQ.push(make_pair(-Distance, Next)); //push: insert(=push_back)
 	}
 	Visit[start] = true;
 
 	while (PQ.empty() == 0)
 	{
-		int Distance = -PQ.top().first; //top(): return the top ele
+		long long Distance = -PQ.top().first; //top(): return the top ele
 		int Cur = PQ.top().second; //Current
 		PQ.pop();
 
@@ -34,7 +35,7 @@ void Prim(int start)
 			minCost += Distance;
 			for (int i = 0; i < Cost[Cur].size(); i++)
 			{
-				int nDistance = Cost[Cur][i].second;
+				long long nDistance = Cost[Cur][i].second;
 				int Next = Cost[Cur][i].first;
 				if (Visit[Next] == false) PQ.push(make_pair(-nDistance, Next));
 			}
