@@ -13,8 +13,6 @@ int minCost;
 void Prim(int start)
 {
 	priority_queue<pair<int, int>> PQ;
-	//priority_queue<pair<int, int>, vector<pair<int, int>>> PQ;
-	//priority_queue<pii, vector<pii>, greater<pii>> PQ;
 	for (int i = 0; i < Cost[start].size(); i++) //size(): # of elements
 	{
 		int Next = Cost[start][i].first;
