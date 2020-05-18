@@ -53,7 +53,6 @@ void Solve()
 int main(int argc, char** argv)
 {
 	cin >> numPC >> numLine;
-	for (int i = 0; i < numPC; i++) Parent[i] = i;
 	for (int i = 0; i < numLine; i++)
 	{
 		int from, to, cost;
