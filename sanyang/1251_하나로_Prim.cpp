@@ -1,6 +1,4 @@
-//1251
-//
-//Prim
+//#1251. SW문제해결응용 4일차 - 하나로 (Prim algorithm)
 #include <iostream>
 #include <vector>
 #include <cstring> //memset
@@ -31,7 +29,6 @@ void Initialize()
 	ni = 0;
 	//Cost->clear();
 	for (int i = 0; i < MAX; i++) Cost[i].clear();
-	//vector <pair<int, ll>> Cost = { { 0,0 } };
 	for (int i = 0; i < MAX; i++)
 	{
 		P[i].x = -1;
