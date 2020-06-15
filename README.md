@@ -1,5 +1,5 @@
 # study_coding_w-LSY
-Study Coding: SWEA, BOJ, etc
+Study Coding: SWEA, BOJ, Codility etc
 
 1. [SWEA] #4406(D3): 모음이 보이지 않는 사람
 2. [SWEA] #5215(D3): 햄버거 다이어트
@@ -57,3 +57,10 @@ Study Coding: SWEA, BOJ, etc
 50. [SWEA] #3378(D4): 스타일리쉬 들여쓰기
 51. [SWEA] #5987(D4): 달리기
 52. [SWEA] #7194(D4): 화섭이의 미생물 배양
+
+53. [Codility] Lesson1(P) : Binary Gap
+54. [Codility] Lesson2(P) : Cyclic Rotation
+55. [Codility] Lesson2(P) : Odd Occurrences In Array
+56. [Codility] Lesson3(P) : Frog Jmp
+57. [Codility] Lesson3(P) : Perm Missing Elem
+58. [Codility] Lesson3(P) : Tape Equilibrium
