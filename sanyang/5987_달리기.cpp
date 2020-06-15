@@ -1,4 +1,4 @@
-//#5987. 달리기
+//#5987. SW달리기
 #include <iostream>
 #include <memory.h> memset(Pos, 0, sizeof(Pos));
 #define MAX 16
