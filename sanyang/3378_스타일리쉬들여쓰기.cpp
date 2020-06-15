@@ -1,4 +1,4 @@
-//#3378. 스타일리쉬 들여쓰기
+//#3378. SW스타일리쉬 들여쓰기
 #include <iostream>
 #include <string>
 #include <vector>

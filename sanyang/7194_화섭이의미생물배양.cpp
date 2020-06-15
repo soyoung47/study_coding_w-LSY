@@ -1,4 +1,4 @@
-//#7194. 화섭이의 미생물 
+//#7194. SW화섭이의 미생물 배양
 #include <iostream>
 #include <cstring>
 #define endl "\n"
