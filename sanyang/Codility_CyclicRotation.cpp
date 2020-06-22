@@ -13,3 +13,5 @@ vector<int> solution(vector<int> &A, int K) {
     A.swap(tmpA);
     return A;
 }
+
+//result: https://app.codility.com/demo/results/training2PC273-9MZ/
