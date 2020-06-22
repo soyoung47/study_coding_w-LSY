@@ -59,8 +59,12 @@ Study Coding: SWEA, BOJ, Codility etc
 52. [SWEA] #7194(D4): 화섭이의 미생물 배양
 
 53. [Codility] Lesson1(P) : Binary Gap
-54. [Codility] Lesson2(P) : Cyclic Rotation
-55. [Codility] Lesson2(P) : Odd Occurrences In Array
-56. [Codility] Lesson3(P) : Frog Jmp
-57. [Codility] Lesson3(P) : Perm Missing Elem
-58. [Codility] Lesson3(P) : Tape Equilibrium
+54. [Codility] Lesson2-1(P) : Cyclic Rotation
+55. [Codility] Lesson2-2(P) : Odd Occurrences In Array
+56. [Codility] Lesson3-1(P) : Frog Jmp
+57. [Codility] Lesson3-2(P) : Perm Missing Elem
+58. [Codility] Lesson3-3(P) : Tape Equilibrium
+59. [Codility] Lesson4-1(P) : Frog River One
+60. [Codility] Lesson4-2(R) : Max Counters
+61. [Codility] Lesson4-3(R) : Missing Integer
+62. [Codility] Lesson4-4(P) : Perm Check
