@@ -1,3 +1,5 @@
+//https://app.codility.com/demo/results/training6R29S9-8HR/
+
 #include <bitset>
 #include <string>
 

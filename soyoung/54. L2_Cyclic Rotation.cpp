@@ -1,3 +1,5 @@
+//https://app.codility.com/demo/results/trainingBFE8XM-P53/
+
 #include <deque>
 
 vector<int> solution(vector<int>& A, int K) {

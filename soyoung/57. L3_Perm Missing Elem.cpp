@@ -1,3 +1,5 @@
+//time complexity : O(N) or O(N * log(N))
+//https://app.codility.com/demo/results/training54N9UQ-PTX/
 #include <algorithm>
 
 int solution(vector<int>& A) {

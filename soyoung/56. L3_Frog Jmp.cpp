@@ -1,3 +1,6 @@
+//time complexity : O(1)
+//https://app.codility.com/demo/results/trainingUWSYPF-UU3/
+
 int solution(int X, int Y, int D) {
 
     int cnt = 0;
@@ -10,4 +13,6 @@ int solution(int X, int Y, int D) {
     }
 
     cnt += len / D;
+
+    return cnt;
 }
