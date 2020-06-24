@@ -36,3 +36,5 @@ int solution(int N) {
     }
     return max;
 }
+
+//result: https://app.codility.com/demo/results/trainingZX4T84-734/
