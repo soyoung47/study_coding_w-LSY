@@ -68,3 +68,7 @@ Study Coding: SWEA, BOJ, Codility etc
 60. [Codility] Lesson4-2(R) : Max Counters
 61. [Codility] Lesson4-3(R) : Missing Integer
 62. [Codility] Lesson4-4(P) : Perm Check
+63. [Codility] Lesson5-1(R) : Count Div
+64. [Codility] Lesson5-2(R) : Genomic Range Query
+65. [Codility] Lesson5-3(R) : Min Avg Two Slice
+66. [Codility] Lesson5-4(P) : Passing Cars
