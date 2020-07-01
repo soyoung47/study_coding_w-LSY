@@ -1,4 +1,4 @@
-//Codility_L4_CountingElements_PermCheck[Painless]
+//Codility_L4-4_CountingElements_PermCheck[Painless]
 //https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
 
 #include <algorithm>
