@@ -1,4 +1,4 @@
-//Codility_L1_Iterations_BinaryGap[Painless]
+//Codility_L1-1_Iterations_BinaryGap[Painless]
 //https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
 int arrTmp[32] = {0};
 
