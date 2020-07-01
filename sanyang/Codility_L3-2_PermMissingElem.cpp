@@ -1,4 +1,4 @@
-//Codility_L3_TimeComplexity_PermMissingElem[Painless]
+//Codility_L3-2_TimeComplexity_PermMissingElem[Painless]
 //https://app.codility.com/programmers/lessons/3-time_complexity/
 
 #include <algorithm>
