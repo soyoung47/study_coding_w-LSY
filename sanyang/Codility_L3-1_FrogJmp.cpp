@@ -1,4 +1,4 @@
-//Codility_L3_FrorJmp[Painless]
+//Codility_L3-1_FrorJmp[Painless]
 //https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
 
 int solution(int X, int Y, int D)
