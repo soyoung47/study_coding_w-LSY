@@ -1,4 +1,4 @@
-//Codility_L2_Arrays_OddOccurrencesInArray[Painless]
+//Codility_L2-2_Arrays_OddOccurrencesInArray[Painless]
 //https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
 
 int solution(vector<int>& A)
