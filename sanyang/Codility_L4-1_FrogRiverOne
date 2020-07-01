@@ -1,4 +1,4 @@
-//Codility_L4-1_FrogRiverOne[Painless]
+//Codility_L4-1_CountingElements_FrogRiverOne[Painless]
 //https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/
 
 #include <set>
