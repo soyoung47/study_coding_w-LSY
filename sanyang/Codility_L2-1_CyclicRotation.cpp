@@ -1,4 +1,4 @@
-//Codility_L2_Arrays_CyclicRotation[Painless]
+//Codility_L2-1_Arrays_CyclicRotation[Painless]
 //https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
 
 vector<int> solution(vector<int> &A, int K) {
