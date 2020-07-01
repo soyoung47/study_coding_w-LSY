@@ -1,4 +1,4 @@
-//Codility_L3_TimeComplexity_TapeEquilibrium[Painless]
+//Codility_L3-3_TimeComplexity_TapeEquilibrium[Painless]
 //https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
 
 int solution(vector<int>& A)
