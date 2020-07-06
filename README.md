@@ -72,3 +72,7 @@ Study Coding: SWEA, BOJ, Codility etc
 64. [Codility] Lesson5-2(R) : Genomic Range Query
 65. [Codility] Lesson5-3(R) : Min Avg Two Slice
 66. [Codility] Lesson5-4(P) : Passing Cars
+67. [Codility] Lesson6-1(P) : Distinct
+68. [Codility] Lesson6-2(P) : Max Product Of Three
+69. [Codility] Lesson6-3(R) : Number Of Disc Intersections
+70. [Codility] Lesson6-4(P) : Triangle
