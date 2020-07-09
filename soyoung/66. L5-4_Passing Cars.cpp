@@ -1,4 +1,28 @@
 /*
+    [solution 2]
+    Time Complexity: O(N)
+    Result:::https://app.codility.com/demo/results/training3D2QW4-QMS/
+*/
+int solution(vector<int>& A) {
+
+    int cnt = 0, zero = 0;
+
+    for (int k = 0; k < A.size(); k++)
+    {
+        if (A[k] == 0)
+            zero++;
+        else
+            cnt += zero;
+
+        if (cnt > 1000000000)
+            return -1;
+    }
+
+    return cnt;
+}
+
+/*
+    [solution 1]
     Time Complexity: O(N)
     Result:::https://app.codility.com/demo/results/trainingNFK4QW-5PP/
 */
