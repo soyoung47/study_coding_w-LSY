@@ -76,3 +76,7 @@ Study Coding: SWEA, BOJ, Codility etc
 68. [Codility] Lesson6-2(P) : Max Product Of Three
 69. [Codility] Lesson6-3(R) : Number Of Disc Intersections
 70. [Codility] Lesson6-4(P) : Triangle
+71. [Codility] Lesson7-1(P) : Brackets
+72. [Codility] Lesson7-2(P) : Fish
+73. [Codility] Lesson7-3(P) : Nesting
+74. [Codility] Lesson7-4(P) : Stone Wall
