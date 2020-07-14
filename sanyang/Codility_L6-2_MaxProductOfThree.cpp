@@ -1,4 +1,4 @@
-//Codility_6-2_Sorting_MaxProductOfThree[Painless]
+//Codility_L6-2_Sorting_MaxProductOfThree[Painless]
 //https://app.codility.com/programmers/lessons/6-sorting/max_product_of_three/
 
 #include <algorithm>
