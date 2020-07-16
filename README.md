@@ -80,3 +80,5 @@ Study Coding: SWEA, BOJ, Codility etc
 72. [Codility] Lesson7-2(P) : Fish
 73. [Codility] Lesson7-3(P) : Nesting
 74. [Codility] Lesson7-4(P) : Stone Wall
+75. [Codility] Lesson8-1(P) : Dominator
+76. [Codility] Lesson8-2(P) : Equi Leader
