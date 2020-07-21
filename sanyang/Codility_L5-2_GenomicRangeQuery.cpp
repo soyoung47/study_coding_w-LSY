@@ -1,7 +1,7 @@
-#include <iostream>
-#include <vector>
+//Codility_L5-2_PrefixSums_GenomicRangeQuery[Respectable]
+//https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/
+
 #include <string>
-using namespace std;
 
 vector<int> solution(string& S, vector<int>& P, vector<int>& Q)
 {
@@ -51,20 +51,24 @@ vector<int> solution(string& S, vector<int>& P, vector<int>& Q)
 		}
 		else
 		{
-			if (sumT[Q[i]] - sumT[P[i]] > 0) ans[i] = 4;
-			if (sumG[Q[i]] - sumG[P[i]] > 0) ans[i] = 3;
-			if (sumC[Q[i]] - sumC[P[i]] > 0) ans[i] = 2;
-			if (sumA[Q[i]] - sumA[P[i]] > 0) ans[i] = 1;
+			if (P[i] == 0)
+			{
+				if (sumT[Q[i]] > 0) ans[i] = 4;
+				if (sumG[Q[i]] > 0) ans[i] = 3;
+				if (sumC[Q[i]] > 0) ans[i] = 2;
+				if (sumA[Q[i]] > 0) ans[i] = 1;
+			}
+			else
+			{
+				if (sumT[Q[i]] - sumT[P[i] - 1] > 0) ans[i] = 4;
+				if (sumG[Q[i]] - sumG[P[i] - 1] > 0) ans[i] = 3;
+				if (sumC[Q[i]] - sumC[P[i] - 1] > 0) ans[i] = 2;
+				if (sumA[Q[i]] - sumA[P[i] - 1] > 0) ans[i] = 1;
+			}
+			
 		}
 	}
 	return ans;
 }
 
-int main()
-{
-	string S = "CAGCCTA";
-	vector<int> P = { 2,5,0 };
-	vector<int> Q = { 4,5,6 };
-	solution(S, P, Q);
-	return 0;
-}
+//result O(N+M), 100%: https://app.codility.com/demo/results/trainingYQDE4Z-EZ8/
