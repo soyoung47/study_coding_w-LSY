@@ -85,3 +85,7 @@ Study Coding: SWEA, BOJ, Codility etc
 77. [Codility] Lesson9-1(R) : Max Double Slice Sum
 78. [Codility] Lesson9-2(P) : Max Profit
 79. [Codility] Lesson9-3(P) : Max Slice Sum
+80. [Codility] Lesson10-1(P) : Count Factors
+81. [Codility] Lesson10-2(R) : Flags
+82. [Codility] Lesson10-3(P) : Min Perimeter Rectangle
+83. [Codility] Lesson10-4(R) : Peaks
