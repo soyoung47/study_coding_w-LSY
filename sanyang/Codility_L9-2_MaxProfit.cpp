@@ -1,10 +1,6 @@
 //Codility_L9-2_MaximumSliceProblem_MaxProfit[Painless]
 //https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_profit/
 
-#include <iostream>
-#include <vector>
-using namespace std;
-
 int solution(vector<int>& A)
 {
 	if (int(A.size()) <= 1) return 0;
