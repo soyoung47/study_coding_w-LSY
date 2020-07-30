@@ -1,4 +1,4 @@
-//Codility_L10-1_PrimgAndCompositeNumbers_CountFactors
+//Codility_L10-1_PrimgAndCompositeNumbers_CountFactors[Painless]
 //https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/count_factors/
 
 int solution(int N)
