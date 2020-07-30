@@ -14,7 +14,7 @@ int solution(int N)
 	return cnt;
 }
 
-//result 92% (int): https://app.codility.com/demo/results/training8RAFXD-MHM/
-//results 100% (unsigned int): https://app.codility.com/demo/results/training8RAFXD-MHM/
+//result 92% (int) O(sqrt(N)): https://app.codility.com/demo/results/training8RAFXD-MHM/
+//results 100% (unsigned int) O(sqrt(N)): https://app.codility.com/demo/results/training8RAFXD-MHM/
 //ref: https://codility.com/media/train/8-PrimeNumbers.pdf
 //ref: https://sites.google.com/site/spaceofjameschen/home/codibility/10-1-countfactors
