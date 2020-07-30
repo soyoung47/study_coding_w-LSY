@@ -6,8 +6,8 @@
 int solution(vector<int>& A) {
 
     int size = A.size();
-    vector<int> left(size, 0); //¼ø¹æÇâ
-    vector<int> right(size, 0); //¿ª¹æÇâ
+    vector<int> left(size, 0); //ìˆœë°©í–¥
+    vector<int> right(size, 0); //ì—­ë°©í–¥
     int max = 0;
 
     if (size == 3) return max;
