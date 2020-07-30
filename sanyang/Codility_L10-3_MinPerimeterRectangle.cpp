@@ -1,4 +1,4 @@
-//Codility_L10-3_PrimeAndCompositeNumbers_MinPerimeterRectangle
+//Codility_L10-3_PrimeAndCompositeNumbers_MinPerimeterRectangle[Painless]
 //https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/min_perimeter_rectangle/
 
 int solution(int N)
