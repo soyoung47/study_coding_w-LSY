@@ -91,3 +91,5 @@ Study Coding: SWEA, BOJ, Codility etc
 83. [Codility] Lesson10-4(R) : Peaks
 84. [Codility] Lesson11-1(R) : Count Non Divisible
 85. [Codility] Lesson11-2(R) : Count Semiprimes
+86. [Codility] Lesson12-1(P) : Chocolates By numbers
+87. [Codility] Lesson12-2(R) : Common Prime Divisors
