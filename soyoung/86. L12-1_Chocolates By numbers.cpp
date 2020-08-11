@@ -13,7 +13,7 @@ int solution(int N, int M) {
 
     if (N < M)  min = N;
 
-    //Find divisor(minÀÇ ¾à¼ö)
+    //Find divisor(minì˜ ì•½ìˆ˜)
     vector<int> div;
     for (int i = 1; i <= sqrt(min); i++)
     {
@@ -26,7 +26,7 @@ int solution(int N, int M) {
     }
     sort(div.begin(), div.end());
 
-    //Find Greatest common factor (ÃÖ´ë°ø¾à¼ö)
+    //Find Greatest common factor (ìµœëŒ€ê³µì•½ìˆ˜)
     for (int i = div.size() - 1; i >= 0; i--)
     {
         if (N % div[i] == 0 && M % div[i] == 0)
