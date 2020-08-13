@@ -93,3 +93,5 @@ Study Coding: SWEA, BOJ, Codility etc
 85. [Codility] Lesson11-2(R) : Count Semiprimes
 86. [Codility] Lesson12-1(P) : Chocolates By numbers
 87. [Codility] Lesson12-2(R) : Common Prime Divisors
+88. [Codility] Lesson13-1(R) : Fib Frog
+89. [Codility] Lesson13-2(R) : Ladder
