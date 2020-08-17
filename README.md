@@ -95,3 +95,5 @@ Study Coding: SWEA, BOJ, Codility etc
 87. [Codility] Lesson12-2(R) : Common Prime Divisors
 88. [Codility] Lesson13-1(R) : Fib Frog
 89. [Codility] Lesson13-2(R) : Ladder
+90. [Codility] Lesson14-1(R) : Min Max Division
+91. [Codility] Lesson14-2(R) : Nailing Planks
