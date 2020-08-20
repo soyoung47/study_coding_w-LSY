@@ -97,3 +97,7 @@ Study Coding: SWEA, BOJ, Codility etc
 89. [Codility] Lesson13-2(R) : Ladder
 90. [Codility] Lesson14-1(R) : Min Max Division
 91. [Codility] Lesson14-2(R) : Nailing Planks
+92. [Codility] Lesson15-1(P) : Abs Distinct
+93. [Codility] Lesson15-2(P) : Count Distinct Slices
+94. [Codility] Lesson15-3(P) : Count Triangles
+95. [Codility] Lesson15-4(R) : Min Abs Sum Of Two
