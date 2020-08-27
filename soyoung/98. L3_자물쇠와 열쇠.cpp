@@ -4,7 +4,7 @@
 using namespace std;
 
 vector<pair<int, int>> rotation90(vector<pair<int, int>> arr, int M)
-{    
+{
     for (int i = 0; i < arr.size(); i++)
     {
         pair<int, int> p = arr[i];
@@ -14,14 +14,13 @@ vector<pair<int, int>> rotation90(vector<pair<int, int>> arr, int M)
 }
 
 bool solution(vector<vector<int>> key, vector<vector<int>> lock) {
-    
+
     int N = lock.size();
     int M = key.size();
 
     //자물쇠 홈과 열쇠 돌기 좌표 저장
-    //vector<pair<int, int>> lock_groove; //자물쇠 홈(0)
-    map<pair<int, int>, int> lock_groove;
-    vector<pair<int, int>>   key_bump;  //열쇠 돌기(1)
+    map<pair<int, int>, int> lock_groove;//자물쇠 홈(0)
+    vector<pair<int, int>>   key_bump;   //열쇠 돌기(1)
 
     for (int i = 0; i < N; i++)
     {
@@ -47,7 +46,7 @@ bool solution(vector<vector<int>> key, vector<vector<int>> lock) {
     for (int r = 0; r < 4;r++)
     {
         //오른쪽으로 이동(0 ~ N-1)
-        for (int i = -M +1; i < N + M; i++)
+        for (int i = -M + 1; i < N + M; i++)
         {
             //아래로 이동
             for (int j = -M + 1; j < N + M; j++)
@@ -60,7 +59,7 @@ bool solution(vector<vector<int>> key, vector<vector<int>> lock) {
                     int y = key_bump[k].second + j;
 
                     if (x < 0 || y < 0 || x >= N || y >= N)    continue;
-                                       
+
                     if (lock[x][y] == 1)    cnt = 0;     //열쇠의 돌기와 자물쇠의 돌기는 만나면 안됨.
                     if (lock_groove.count(make_pair(x, y)) > 0)   cnt++;
                 }
