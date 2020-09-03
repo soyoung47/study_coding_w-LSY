@@ -1,4 +1,4 @@
-//
+//[programmers.co.kr] - 코딩테스트 연습 - 2020 KAKAO BLIND RECRUITMENT - 괄호 변환
 //https://programmers.co.kr/learn/courses/30/lessons/60063
 
 #include <string>
