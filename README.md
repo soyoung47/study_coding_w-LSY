@@ -109,3 +109,11 @@ Study Coding: SWEA, BOJ, Codility, Programmers, etc
 100. [Programmers] [2020 Kakao Blind Recruitment] Level 3: 외벽 점검
 101. [Programmers] [2020 Kakao Blind Recruitment] Level 3: 블록 이동하기
 102. [Programmers] [2020 Kakao Blind Recruitment] Level 4: 가사 검색
+
+103. [Programmers] [2019 Kakao Blind Recruitment] Level 2: 오픈채팅방
+104. [Programmers] [2019 Kakao Blind Recruitment] Level 2: 실패율
+105. [Programmers] [2019 Kakao Blind Recruitment] Level 2: 후보키
+106. [Programmers] [2019 Kakao Blind Recruitment] Level 3: 길 찾기 게임
+107. [Programmers] [2019 Kakao Blind Recruitment] Level 3: 매칭 점수
+108. [Programmers] [2019 Kakao Blind Recruitment] Level 4: 무지의 먹방 라이브
+109. [Programmers] [2019 Kakao Blind Recruitment] Level 4: 블록 게임
