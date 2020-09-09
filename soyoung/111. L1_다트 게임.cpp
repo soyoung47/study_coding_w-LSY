@@ -6,7 +6,6 @@ using namespace std;
 int solution(string dartResult) {
     int answer = 0;
     vector<int> dart;
-    bool ten = false;
     string nstr = "";
 
     for (int i = 0; i < dartResult.size(); i++)
