@@ -1,4 +1,4 @@
-//[programmers.co.kr] - 코딩테스트 연습 - 2019 KAKAO BLIND RECRUITMENT - 프렌즈4블록
+//[programmers.co.kr] - 코딩테스트 연습 - 2018 KAKAO BLIND RECRUITMENT - 프렌즈4블록
 //https://programmers.co.kr/learn/courses/30/lessons/
 
 #include <string>
