@@ -58,3 +58,5 @@ int solution(string str1, string str2) {
 
     return answer;
 }
+
+//ref: https://eunchanee.tistory.com/75
