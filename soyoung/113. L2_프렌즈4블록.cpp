@@ -62,8 +62,3 @@ int solution(int m, int n, vector<string> board) {
 
     return answer;
 }
-
-int main()
-{
-    int a = solution(4, 5, { "CCBDE", "AAADE", "AAABF", "CCBBF" });
-}
