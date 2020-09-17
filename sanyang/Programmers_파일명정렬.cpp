@@ -37,11 +37,13 @@ vector<string> solution(vector<string> files) {
                 
                 vector<int> nums;
                 for(int k=j; k<files[i].size(); k++){
+                    //숫자 값 저장 (int vector)
                     if (files[i][k] >= '0' && files[i][k] <= '9') nums.push_back(files[i][k]-'0');
                     else break;
                 }
                 
                 res = 0;
+                //숫자 값 계산
                 for (int k=int(nums.size()-1); k>=0; k--){
                     res += nums[k]*pow(10,nums.size()-1-k);
                 }
@@ -53,6 +55,7 @@ vector<string> solution(vector<string> files) {
         }
     }
     
+    //안정정렬을 위한 stable_sort()
     stable_sort(names.begin(), names.end(), comp);
     
     for (int i=0; i<names.size(); i++) answer.push_back(files[names[i].idx]);
