@@ -22,12 +22,18 @@ string write_play_music(int time, string music)
 {
     string play = "";
     int n = music.size();
-    int t = 0;
+
+    for (int i = 1; i <= time / n; i++)
+        play += music;
+
+    play += music.substr(0, time);
+
+    /*int t = 0;
     while (t < time)
     {
         play += music[t % n];
         t++;
-    }
+    }*/
 
     return play;
 }
