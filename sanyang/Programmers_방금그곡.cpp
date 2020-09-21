@@ -1,4 +1,5 @@
-
+////[programmers.co.kr] - 코딩테스트 연습 - 2018 KAKAO BLIND RECRUITMENT - 방금그곡
+//https://programmers.co.kr/learn/courses/30/lessons/17683
 
 #include <string>
 #include <vector>
@@ -23,7 +24,7 @@ string change(string &in, map<string, char> &s)
     return out;
 }
 string solution(string m, vector<string> musicinfos) {
-    string answer = "";
+    string answer = "(None)";
     int sHour = 0, eHour = 0, sMin = 0, eMin = 0, time = 0, sTime = 0;
     string melody = "", title = "";
     map<string, char> s;
