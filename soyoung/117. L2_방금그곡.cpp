@@ -34,6 +34,8 @@ string write_play_music(int time, string music)
 
 string rewrite_music(string music)
 {
+    if (music.find_first_of('#') == -1)  return music;
+
     string n_music = "";
     int n = music.size();
 
