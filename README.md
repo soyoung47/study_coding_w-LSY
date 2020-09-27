@@ -137,3 +137,9 @@ Study Coding: SWEA, BOJ, Codility, Programmers, etc
 124. [Programmers] [2019 카카오 개발자 겨울 인턴십] Level 3: 불량 사용자
 125. [Programmers] [2019 카카오 개발자 겨울 인턴십] Level 3: 징검다리 건너기
 126. [Programmers] [2019 카카오 개발자 겨울 인턴십] Level 4: 호텔 방 배정
+
+127. [Programmers] [2020 카카오 인턴십] Level 1: 키패드 누르기
+128. [Programmers] [2020 카카오 인턴십] Level 2: 수식 최대화
+129. [Programmers] [2020 카카오 인턴십] Level 3: 보석 쇼핑
+130. [Programmers] [2020 카카오 인턴십] Level 3: 경주로 건설
+131. [Programmers] [2020 카카오 인턴십] Level 4: 동굴 탐험
