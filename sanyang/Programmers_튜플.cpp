@@ -59,10 +59,4 @@ vector<int> solution(string s) {
     return answer;
 }
 
-int main() {
-    string s ("{2},{2,1},{2,1,3},{2,1,3,4}}");
-    solution(s);
-    return 0;
-}
-
 //ref: https://eunchanee.tistory.com/71
