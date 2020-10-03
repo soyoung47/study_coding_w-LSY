@@ -143,3 +143,8 @@ Study Coding: SWEA, BOJ, Codility, Programmers, etc
 129. [Programmers] [2020 카카오 인턴십] Level 3: 보석 쇼핑
 130. [Programmers] [2020 카카오 인턴십] Level 3: 경주로 건설
 131. [Programmers] [2020 카카오 인턴십] Level 4: 동굴 탐험
+
+132. [Programmers] [월간 코드 챌린지 시즌1] Level 1: 두 개 뽑아서 더하기
+133. [Programmers] [월간 코드 챌린지 시즌1] Level 2: 삼각 달팽이
+134. [Programmers] [월간 코드 챌린지 시즌1] Level 3: 풍선 터트리기
+135. [Programmers] [월간 코드 챌린지 시즌1] Level 4: 짝수 행 세기
