@@ -148,3 +148,27 @@ Study Coding: SWEA, BOJ, Codility, Programmers, etc
 133. [Programmers] [월간 코드 챌린지 시즌1] Level 2: 삼각 달팽이
 134. [Programmers] [월간 코드 챌린지 시즌1] Level 3: 풍선 터트리기
 135. [Programmers] [월간 코드 챌린지 시즌1] Level 4: 짝수 행 세기
+
+136. [Programmers] [월간 코드 챌린지 시즌1] Level 1: 3진법 뒤집기
+137. [Programmers] [월간 코드 챌린지 시즌1] Level 2: 쿼드압축 후 개수 세기
+138. [Programmers] [월간 코드 챌린지 시즌1] Level 4: 트리 트리오 중간값
+139. [Programmers] [월간 코드 챌린지 시즌1] Level 5: 문자열의 아름다움
+
+
+140. [Programmers] [코딩테스트 고득점 Kit] [해시] Level 1: 완주하지 못한 선수
+141. [Programmers] [코딩테스트 고득점 Kit] [해시] Level 2: 전화번호 목록
+142. [Programmers] [코딩테스트 고득점 Kit] [해시] Level 2: 위장
+143. [Programmers] [코딩테스트 고득점 Kit] [해시] Level 3: 베스트앨범
+
+144. [Programmers] [코딩테스트 고득점 Kit] [스택/큐] Level 2: 주식가격
+145. [Programmers] [코딩테스트 고득점 Kit] [스택/큐] Level 2: 기능개발
+146. [Programmers] [코딩테스트 고득점 Kit] [스택/큐] Level 2: 다리를 지나는 트럭
+147. [Programmers] [코딩테스트 고득점 Kit] [스택/큐] Level 2: 프린터
+
+148. [Programmers] [코딩테스트 고득점 Kit] [힙(Heap)] Level 2: 더 맵게
+149. [Programmers] [코딩테스트 고득점 Kit] [힙(Heap)] Level 3: 디스크 컨트롤러
+150. [Programmers] [코딩테스트 고득점 Kit] [힙(Heap)] Level 3: 이중우선순위큐
+
+151. [Programmers] [코딩테스트 고득점 Kit] [정렬] Level 1: K번째수
+152. [Programmers] [코딩테스트 고득점 Kit] [정렬] Level 2: 가장 큰 수
+153. [Programmers] [코딩테스트 고득점 Kit] [정렬] Level 2: H-Index
