@@ -172,3 +172,31 @@ Study Coding: SWEA, BOJ, Codility, Programmers, etc
 151. [Programmers] [코딩테스트 고득점 Kit] [정렬] Level 1: K번째수
 152. [Programmers] [코딩테스트 고득점 Kit] [정렬] Level 2: 가장 큰 수
 153. [Programmers] [코딩테스트 고득점 Kit] [정렬] Level 2: H-Index
+
+154. [Programmers] [코딩테스트 고득점 Kit] [완전탐색] Level 1: 모의고사
+155. [Programmers] [코딩테스트 고득점 Kit] [완전탐색] Level 2: 소수 찾기
+156. [Programmers] [코딩테스트 고득점 Kit] [완전탐색] Level 2: 카펫
+
+157. [Programmers] [코딩테스트 고득점 Kit] [탐욕법(Greedy)] Level 1: 체육복
+158. [Programmers] [코딩테스트 고득점 Kit] [탐욕법(Greedy)] Level 2: 큰 수 만들기
+159. [Programmers] [코딩테스트 고득점 Kit] [탐욕법(Greedy)] Level 2: 조이스틱
+160. [Programmers] [코딩테스트 고득점 Kit] [탐욕법(Greedy)] Level 2: 구명보트
+161. [Programmers] [코딩테스트 고득점 Kit] [탐욕법(Greedy)] Level 2: 섬 연결하기
+162. [Programmers] [코딩테스트 고득점 Kit] [탐욕법(Greedy)] Level 2: 단속카메라
+
+163. [Programmers] [코딩테스트 고득점 Kit] [동적계획법(DP)] Level 3: N으로 표현
+164. [Programmers] [코딩테스트 고득점 Kit] [동적계획법(DP)] Level 3: 정수 삼각형
+165. [Programmers] [코딩테스트 고득점 Kit] [동적계획법(DP)] Level 3: 등굣길
+166. [Programmers] [코딩테스트 고득점 Kit] [동적계획법(DP)] Level 4: 도둑질
+
+167. [Programmers] [코딩테스트 고득점 Kit] [DFS/BFS] Level 2: 타겟 넘버
+168. [Programmers] [코딩테스트 고득점 Kit] [DFS/BFS] Level 3: 네트워크
+169. [Programmers] [코딩테스트 고득점 Kit] [DFS/BFS] Level 3: 단어 변환
+170. [Programmers] [코딩테스트 고득점 Kit] [DFS/BFS] Level 3: 여행경로
+
+171. [Programmers] [코딩테스트 고득점 Kit] [이분탐색] Level 3: 입국심사
+172. [Programmers] [코딩테스트 고득점 Kit] [이분탐색] Level 4: 징검다리
+
+173. [Programmers] [코딩테스트 고득점 Kit] [그래프] Level 3: 가장 먼 노드
+174. [Programmers] [코딩테스트 고득점 Kit] [그래프] Level 3: 순위
+175. [Programmers] [코딩테스트 고득점 Kit] [그래프] Level 5: 방의 개수
