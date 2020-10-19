@@ -1,4 +1,4 @@
-//Programmers_정렬_K번째수.py
+#Programmers_정렬_K번째수
 
 def solution(array, commands):
     size = len(commands)
