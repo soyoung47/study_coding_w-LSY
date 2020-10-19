@@ -14,12 +14,12 @@ string solution(vector<int> numbers) {
     string answer = "";
     int size = numbers.size();
 
-    //¼ıÀÚ stringÀ¸·Î º¯È¯
+    //ìˆ«ì stringìœ¼ë¡œ ë³€í™˜
     vector<string> num;
     for (int i = 0; i < size; i++)
         num.push_back(to_string(numbers[i]));
 
-    //Á¤·Ä
+    //ì •ë ¬
     sort(num.begin(), num.end(), comp);
 
     if (num[0] == "0") return "0";
