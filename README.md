@@ -154,7 +154,6 @@ Study Coding: SWEA, BOJ, Codility, Programmers, etc
 138. [Programmers] [월간 코드 챌린지 시즌1] Level 4: 트리 트리오 중간값
 139. [Programmers] [월간 코드 챌린지 시즌1] Level 5: 문자열의 아름다움
 
-
 140. [Programmers] [코딩테스트 고득점 Kit] [해시] Level 1: 완주하지 못한 선수
 141. [Programmers] [코딩테스트 고득점 Kit] [해시] Level 2: 전화번호 목록
 142. [Programmers] [코딩테스트 고득점 Kit] [해시] Level 2: 위장
