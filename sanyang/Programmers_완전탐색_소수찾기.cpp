@@ -74,3 +74,5 @@ int solution(string numbers) {
 }
 
 //https://jisun-rea.tistory.com/entry/c-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%99%84%EC%A0%84%ED%83%90%EC%83%89-%EC%86%8C%EC%88%98-%EC%B0%BE%EA%B8%B0
+
+//소수 판별시 sqrt(), 에라토스테네스의 체 사용 결과 sqrt()가 체 사용보다 훨씬 느림
