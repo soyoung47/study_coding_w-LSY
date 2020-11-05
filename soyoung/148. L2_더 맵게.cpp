@@ -6,9 +6,9 @@ using namespace std;
 
 int solution(vector<int> scoville, int K) {
     int answer = 0;
-    priority_queue<int, vector<int>, greater<int>> pq;
 
-    for (int sc : scoville)  pq.push(sc);
+    //for (int sc : scoville)  pq.push(sc); 안해줘도 바로 pq에 들어가짐.
+    priority_queue<int, vector<int>, greater<int>> pq(scoville.begin(), scoville.end());;
 
     while (!pq.empty())
     {
