@@ -199,3 +199,8 @@ Study Coding: SWEA, BOJ, Codility, Programmers, etc
 173. [Programmers] [코딩테스트 고득점 Kit] [그래프] Level 3: 가장 먼 노드
 174. [Programmers] [코딩테스트 고득점 Kit] [그래프] Level 3: 순위
 175. [Programmers] [코딩테스트 고득점 Kit] [그래프] Level 5: 방의 개수
+
+176. [Programmers] [월간 코드 챌린지 시즌1] Level 1: 내적
+177. [Programmers] [월간 코드 챌린지 시즌1] Level 2: 이진 변환 반복하기
+178. [Programmers] [월간 코드 챌린지 시즌1] Level 3: 스타 수열
+179. [Programmers] [월간 코드 챌린지 시즌1] Level 5: 가짜 해밀토니안
