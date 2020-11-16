@@ -4,7 +4,6 @@
 using namespace std;
 
 int Max(int A, int B){return A>B? A:B;}
-bool Cmp(int A, int B){return A>B? 1:0;}
 
 int solution(std::vector<int> a) {
     int answer = -1;
