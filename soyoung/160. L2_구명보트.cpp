@@ -7,7 +7,7 @@ using namespace std;
 int solution(vector<int> people, int limit) {
     int answer = 0;
     
-    //»ç¶÷µéÀÇ ¸ö¹«°Ô ¿À¸§Â÷¼ø
+    //ì‚¬ëŒë“¤ì˜ ëª¸ë¬´ê²Œ ì˜¤ë¦„ì°¨ìˆœ
     sort(people.begin(), people.end());
 
     int i = 0, j = people.size() - 1;
