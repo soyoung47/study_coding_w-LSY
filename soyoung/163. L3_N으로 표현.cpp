@@ -14,7 +14,7 @@ int solution(int n, int number) {
 
     for (int i = 2; i < 9; i++)
     {
-        //¼ıÀÚ ºÙÀÌ±â
+        //ìˆ«ì ë¶™ì´ê¸°
         int tmp = 0;
         for (int j = 0; j < i; j++)
             tmp = tmp * 10 + n;
