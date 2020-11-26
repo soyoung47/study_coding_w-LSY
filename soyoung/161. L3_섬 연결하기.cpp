@@ -9,7 +9,7 @@ void prim(vector<vector<pair<int, int>>> v, vector<bool>& visit, int& answer)
 	//cost 오름차순
 	priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
 
-	//1¹øºÎÅÍ ½ÃÀÛ
+	//1번부터 시작
 	visit[0] = true;
 
 	for (int i = 0; i < v[0].size(); i++)
