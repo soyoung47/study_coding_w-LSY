@@ -42,3 +42,5 @@ int solution(int N, int number) {
     //정답이 안나오는 경우 -1 리턴
     return -1;
 }
+
+//ref: https://programmers.co.kr/learn/courses/30/lessons/42895/solution_groups?language=cpp
