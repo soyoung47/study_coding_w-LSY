@@ -29,9 +29,7 @@ long long solution(int n, vector<int> times) {
         else
         {
             max = mid - 1;
-
-            //가능한 값 중 최소값 구하기
-            if (answer > mid)    answer = mid;
+            answer = answer < mid ? answer : mid;
         }
     }
 
