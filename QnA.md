@@ -1,6 +1,11 @@
-# QnA
+#QnA
 
-### [최소 스패닝 트리]
+### [문법]
+* 삼항연산자
+    - (조건) ? TRUE : FALSE
+
+
+###[최소 스패닝 트리]
 * 스패닝 트리(Spanning Tree)
 : 방향이 없는 그래프에서 모든 노드를 포함하면서, 순환되는 경로를 제거한 형태
 * 최소 스패닝 트리(Minimal Spanning Tree: MST)
@@ -18,6 +23,11 @@
 
     * 정점의 개수가 n이라면, 프림은 O(nlogn), 크루스칼은 O(nlogn) ~ O(n^2logn)의 시간복잡도를 가진다.
 
+
+
+
 ---
 - [md 파일 작성 방법 1](https://blog.naver.com/vkfkdto0209/222141824686)
 - [md 파일 작성 방법 2](https://blog.naver.com/jooeun0502/221956294941)
+
+
