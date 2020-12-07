@@ -5,6 +5,7 @@ using namespace std;
 int solution(int distance, vector<int> rocks, int n) {
     int cnt = 0;
     rocks.emplace_back(0);
+    rocks.emplace_back(distance);
     sort(rocks.begin(), rocks.end());
     int low = rocks[0];
     int high = distance;
@@ -18,7 +19,7 @@ int solution(int distance, vector<int> rocks, int n) {
         for (int i = 0; i < rocks.size() - 1; i++){
             //바위사이 거리 계산
             val = rocks[i + 1] - rocks[i];
-            중간값보다 바위 간 거리 작으면 바위 지우기
+            //중간값보다 바위 간 거리 작으면 바위 지우기
             while (cnt < n && val < mid && i < rocks.size() - 2){
                 i++;
                 val += rocks[i + 1] - rocks[i];
@@ -42,5 +43,3 @@ int solution(int distance, vector<int> rocks, int n) {
 
     return low;
 }
-
-//ref: https://programmers.co.kr/learn/courses/30/lessons/43236/solution_groups?language=cpp
