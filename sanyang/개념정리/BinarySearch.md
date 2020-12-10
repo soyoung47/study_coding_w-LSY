@@ -23,7 +23,7 @@ int BSearch(int arr[], int target){
   }
   return -1;
 }
-
+```
 * 방법2. 재귀함수 이용
 ``` C++
 int BSearch_recursive(int arr[], int target, int min, int max){
@@ -35,7 +35,7 @@ int BSearch_recursive(int arr[], int target, int min, int max){
   else if (arr[avg] < target)
     return BSearch_recursive(arr, target, avg+1, max);
 }
-
+```
 ## 시간 복잡도
 * O(logN)
 ** 반복문을 돌 때마다 범위가 N, N/2, N/4, N/8, ..., 1 로 절반씩 감소
