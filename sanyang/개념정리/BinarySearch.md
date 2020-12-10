@@ -38,9 +38,11 @@ int BSearch_recursive(int arr[], int target, int min, int max){
 ```
 ## 시간 복잡도
 * O(logN)
-** 반복문을 돌 때마다 범위가 N, N/2, N/4, N/8, ..., 1 로 절반씩 감소
-** 1에서 2씩 k번 곱해주면 N이 되므로 1*2^k = N
-** 양변에 log2를 취하면 log2(2^k) = log2(N)
-** k = log(N)
+   * 반복문을 돌 때마다 범위가 N, N/2, N/4, N/8, ..., 1 로 절반씩 감소
+   * 1에서 2씩 k번 곱해주면 N이 되므로 1*2^k = N
+   * 양변에 log2를 취하면 log2(2^k) = log2(N)
+   * k = log(N)
+   
+references: https://cjh5414.github.io/binary-search/
 
 
