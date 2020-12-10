@@ -85,3 +85,6 @@ int main()
 	for (int ans : answer)
 		cout << ans << "\n";
 }
+
+//이분 탐색이 더 빠른 이유
+//https://www.acmicpc.net/board/view/24511
