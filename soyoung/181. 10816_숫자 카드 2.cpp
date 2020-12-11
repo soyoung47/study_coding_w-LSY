@@ -6,28 +6,31 @@
 #include <algorithm>
 using namespace std;
 
-int lower_bound(int left, int right, int x, vector<int> arr)
+vector<int> arr;
+int N, M, X;
+
+int low_bound(int left, int right)
 {
 	while (left < right)
 	{
 		int mid = (left + right) / 2;
 
-		if (arr[mid] < x)
-			left = mid;
+		if (arr[mid] < X)
+			left = mid + 1;
 		else
-			right = mid - 1;
+			right = mid;
 	}
 
 	return left;
 }
 
-int upper_bound(int left, int right, int x, vector<int> arr)
+int up_bound(int left, int right)
 {
 	while (left < right)
 	{
 		int mid = (left + right) / 2;
 
-		if (arr[mid] <= x)
+		if (arr[mid] <= X)
 			left = mid + 1;
 		else
 			right = mid;
@@ -38,15 +41,18 @@ int upper_bound(int left, int right, int x, vector<int> arr)
 
 int main()
 {
-	int N, M, X;
 	cin >> N;
 
 	//숫자 카드에 적힌 정수 저장 및 오름차순 정렬
-	vector<int> a(N, 0);
+	int tmp = 0;
 	for (int i = 0; i < N; i++)
-		cin >> a[i];
+	{
+		cin >> tmp;
+		arr.emplace_back(tmp);
+	}
 
-	sort(a.begin(), a.end());
+	sort(arr.begin(), arr.end());
+
 
 	//M개의 정수 X가 적힌 숫자 카드 개수 확인
 	cin >> M;
@@ -54,12 +60,12 @@ int main()
 	for (int i = 0; i < M; i++)
 	{
 		cin >> X;
-		
+
 		//이분 탐색(STL)
-		//answer[i] = upper_bound(a.begin(), a.end(), X) - lower_bound(a.begin(), a.end(), X);
-		
-		//이분 탐색
-		answer[i] = upper_bound(0, N - 1, X, a) - lower_bound(0, N - 1, X, a);
+		//answer[i] = upper_bound(arr.begin(), arr.end(), X) - lower_bound(arr.begin(), arr.end(), X);
+
+		//이분 탐색(구현)
+		answer[i] = up_bound(0, N) - low_bound(0, N);
 	}
 
 	//정답 출력
