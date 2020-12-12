@@ -202,3 +202,6 @@ Study Coding: SWEA, BOJ, Codility, Programmers, etc
 
 180. [BOJ] #1920(S4): 수 찾기
 181. [BOJ] #10816(S4): 숫자 카드 2
+182. [BOJ] #1654(S3): 랜선 자르기
+183. [BOJ] #2805(S3): 나무 자르기
+184. [BOJ] #2110(S1): 공유기 설치
