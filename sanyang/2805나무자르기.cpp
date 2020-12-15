@@ -20,8 +20,7 @@ int main(){
         if (sum >= M){
             min = avg+1;
             //찾던 값이면 maxH 할당
-            //if (avg > maxH) maxH = avg;
-            maxH = avg;
+            if (avg > maxH) maxH = avg;
         }
         //나무 너무 적음 -> 높이 낮추기
         else if (sum < M) max = avg-1;
