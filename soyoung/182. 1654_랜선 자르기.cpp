@@ -15,6 +15,7 @@ int main()
 		cin >> lan[i];
 
 	//이분탐색(랜선길이)
+	//랜선의 최대값이 0인 경우, min = 0이면 런타임 에러 발생(mid = 0 /2 가 되기 때문에)
 	long long min = 1, max = *max_element(lan.begin(), lan.end()), mid, answer = 0;
 
 	while (min <= max)
@@ -36,4 +37,3 @@ int main()
 
 	cout << answer;
 }
-
