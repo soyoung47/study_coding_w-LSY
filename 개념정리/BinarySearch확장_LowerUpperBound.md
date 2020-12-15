@@ -1,3 +1,4 @@
+``` C++
 #include <stdio.h>
 #include <algorithm>
 using namespace std;
@@ -47,6 +48,7 @@ int upper_bound(int arr[], int target, int size){
     return max;
 }
 
+
 /*
  <algorithm> LowerBound, UpperBound
  std::lower_bound([배열첫주소],[배열끝주소],target(k),[sort])
@@ -57,5 +59,6 @@ int upper_bound(int arr[], int target, int size){
  printf("lower bound is arr[%d]\n", std::lower_bound(&arr[0], &arr[n-1], target) - &arr[0]);
  printf("upper bound is arr[%d]\n", std::upper_bound(&arr[0], &arr[n-1], target) - &arr[0]);
  */
+```
 
 //ref: https://bit.ly/37i4QTk
