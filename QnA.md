@@ -37,5 +37,5 @@
 ---
 - [md 파일 작성 방법 1](https://blog.naver.com/vkfkdto0209/222141824686)
 - [md 파일 작성 방법 2](https://blog.naver.com/jooeun0502/221956294941)
-
+- [md 파일 작성 방법 3] GitHub Docs(https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
 
