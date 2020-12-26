@@ -210,3 +210,4 @@ Study Coding: SWEA, BOJ, Codility, Programmers, etc
 187. [BOJ] #1260(S2): DFS와 BFS
 188. [BOJ] #2606(S3): 바이러스
 189. [BOJ] #2667(S1): 단지번호붙이기
+190. [BOJ] #1012(S2): 유기농 배추
