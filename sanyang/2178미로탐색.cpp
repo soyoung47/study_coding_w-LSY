@@ -23,7 +23,6 @@ void BFS(int i, int j){
                     q.emplace(nx,ny);
                     visit[nx][ny] = visit[x][y]+1;
                 }
-                else if (visit[nx][ny]==0) visit[nx][ny]=-1;
             }
         }
     }
