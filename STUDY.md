@@ -31,8 +31,9 @@
 
     * 참고: https://life-with-coding.tistory.com/273
 
-
-
+### [IDE에서 scanf 오류 발생시]
+* scanf가 아니라 scanf_s로 변경하여 사용하도록 권유하고, 빌드 되지 않는 오류 발생
+	* 프로젝트 속성 - C/C++ - SDL검사 옵션 (아니오)로 변경하여 해결
 
 ---
 - [md 파일 작성 방법 1](https://blog.naver.com/vkfkdto0209/222141824686)
