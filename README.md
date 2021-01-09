@@ -219,3 +219,5 @@ Study Coding: SWEA, BOJ, Codility, Programmers, etc
 196. [BOJ] #2206(G4): 벽 부수고 이동하기
 197. [BOJ] #7562(S2): 나이트의 이동
 198. [BOJ] #1707(G4): 이분 그래프
+199. [BOJ] #14888(S1): 연산자 끼워넣기
+200. [BOJ] #14897(S1): 톱니바퀴
