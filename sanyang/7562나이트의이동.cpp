@@ -7,51 +7,51 @@
 
 #include <stdio.h>
 #include <queue>
-#include <tuple>
+#include <cstring>
 using namespace std;
 #define MAX 301
-//8방향 이동 표시
 int dx[] = {-1,-2,-2,-1,1,2,2,1};
 int dy[] = {-2,-1,1,2,2,1,-1,-2};
 bool arr[MAX][MAX] = { {0,} }; //chk
 int v[MAX][MAX] = { {0,} }; //cnt
 queue<pair<int, int>> q;
-int L, curX, curY, destX, destY; //current, destination
+int L, curX, curY, destX, destY, ans; //current, destination
 
-int BFS() {
-	memset(arr, 0, sizeof(arr));
-	memset(v, 0, sizeof(v));
-	q.emplace(make_pair(curX, curY));
-	v[curX][curY] = 0;
-	arr[curX][curY] = 1;
+void BFS() {
+    memset(arr, 0, sizeof(arr));
+    memset(v, 0, sizeof(v));
+    q.emplace(make_pair(curX, curY));
+    v[curX][curY] = 0;
+    arr[curX][curY] = 1;
 
-	while (!q.empty()) {
-		int x = q.front().first;
-		int y = q.front().second;
-		q.pop();
-		if (x == destX && y == destY) return v[x][y];
-		for (int i = 0; i < 8; i++) {
-			int nx = x + dx[i];
-			int ny = y + dy[i];
-			if (nx >= 0 && nx < L && ny >= 0 && ny < L) {
-				if (arr[nx][ny] == 0) {
-					q.emplace(nx, ny);
-					arr[nx][ny] = 1;
-					v[nx][ny] = v[x][y] + 1;
-				}
-			}
-		}
-	}
+    while (!q.empty()) {
+        int x = q.front().first;
+        int y = q.front().second;
+        q.pop();
+        if (x == destX && y == destY) ans = v[x][y];
+        for (int i = 0; i < 8; i++) {
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+            if (nx >= 0 && nx < L && ny >= 0 && ny < L) {
+                if (arr[nx][ny] == 0) {
+                    q.emplace(nx, ny);
+                    arr[nx][ny] = 1;
+                    v[nx][ny] = v[x][y] + 1;
+                }
+            }
+        }
+    }
 }
 
 int main() {
-	int T;
-	scanf("%d", &T);
-	for (int tc = 0; tc < T; tc++) {
-		scanf("%d %d %d %d %d", &L, &curX, &curY, &destX, &destY);
-		printf("%d", BFS());
-	}
-	return 0;
+    int T;
+    scanf("%d", &T);
+    for (int tc = 0; tc < T; tc++) {
+        scanf("%d %d %d %d %d", &L, &curX, &curY, &destX, &destY);
+        BFS();
+        printf("%d\n", ans);
+    }
+    return 0;
 }
 
 //https://kyu9341.github.io/algorithm/2020/02/27/algorithm7562/
