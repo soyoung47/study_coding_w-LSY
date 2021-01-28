@@ -6,53 +6,54 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main_B_1654_랜선자르기 {
+public class boj_2805_나무자르기 {
 	
-	static int K;
-	static long N;
+	static int N;
+	static long M;
 	static long[] arr;
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		K = Integer.parseInt(st.nextToken());
 		N = Integer.parseInt(st.nextToken());
-		arr = new long[K];
+		M = Long.parseLong(st.nextToken());
+		arr = new long[N];
 		
-		for(int i=0; i<K; i++) {
-			arr[i] = Long.parseLong(br.readLine());
+		st = new StringTokenizer(br.readLine());
+		for(int i=0; i<N; i++) {
+			arr[i] = Long.parseLong(st.nextToken());
 		}
 		
 		Arrays.sort(arr);
-		long count = binarySearch();
+		long length = binarySearch();
 		
-		System.out.println(count);
-		
+		System.out.println(length);
 	}
 	
 	private static long binarySearch() {
+		long s = 1, e = arr[N-1]+1, mid=0, count=0;
 		
-		long s=1, e=arr[K-1]+1, mid=0, count=0;
 		while(s<e) {
-			mid=(s+e)/2;
+			mid = (s+e)/2;
+			count = getTree(mid);
+//			System.out.println(mid+" "+count);
 			
-			count = getLine(mid);
-			
-			if(count<N) {
-				e=mid;
+			if(count<M) {
+				e = mid;
 			}else {
-				s=mid+1;
+				s = mid+1;
 			}
 		}
 		
 		return e-1;
 	}
 
-	private static long getLine(long mid) {
+	private static long getTree(long mid) {
 		long sum=0;
 		for(long i: arr) {
-			sum += (i/mid);
+			if(i>mid) {
+				sum += (i-mid);
+			}
 		}
 		return sum;
 	}
-
 }

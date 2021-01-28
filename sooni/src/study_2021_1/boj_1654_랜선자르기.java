@@ -6,56 +6,53 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main_B_2110_공유기설치 {
+public class boj_1654_랜선자르기 {
 	
-	static int N, C;
+	static int K;
+	static long N;
 	static long[] arr;
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
+		K = Integer.parseInt(st.nextToken());
 		N = Integer.parseInt(st.nextToken());
-		C = Integer.parseInt(st.nextToken());
-		arr = new long[N];
+		arr = new long[K];
 		
-		for(int i=0; i<N; i++) {
+		for(int i=0; i<K; i++) {
 			arr[i] = Long.parseLong(br.readLine());
 		}
 		
 		Arrays.sort(arr);
-		long dis = binarySearch();
+		long count = binarySearch();
 		
-		System.out.println(dis);
+		System.out.println(count);
 		
 	}
 	
 	private static long binarySearch() {
-		long s=1, e=arr[N-1]-arr[0], mid=0, dis=1;
 		
+		long s=1, e=arr[K-1]+1, mid=0, count=0;
 		while(s<e) {
-			mid = (s+e)/2;
+			mid=(s+e)/2;
 			
-			if(getWifi(mid)>=C) {
-				dis = Math.max(dis, mid);
-				s = mid+1;
+			count = getLine(mid);
+			
+			if(count<N) {
+				e=mid;
 			}else {
-				e = mid;
+				s=mid+1;
 			}
 		}
 		
-		return dis;
+		return e-1;
 	}
 
-	private static long getWifi(long mid) {
-		
-		int cnt=1; long dis=arr[0];
-		for(int i=1; i<N; i++) {
-			if(arr[i]>=dis+mid) {
-				dis=arr[i];
-				cnt++;
-			}
+	private static long getLine(long mid) {
+		long sum=0;
+		for(long i: arr) {
+			sum += (i/mid);
 		}
-		
-		return cnt;
+		return sum;
 	}
 
 }
