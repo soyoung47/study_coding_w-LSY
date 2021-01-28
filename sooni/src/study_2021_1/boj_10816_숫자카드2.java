@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main_B_10816_숫자카드2 {
+public class boj_10816_숫자카드2 {
 
 	static int N, M;
 	static int[] arr1, arr2;
