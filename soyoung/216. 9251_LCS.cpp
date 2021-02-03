@@ -35,3 +35,6 @@ int main()
 
 	cout << lcs[n1][n2];
 }
+
+//Longest Common Subsequence problem - wikipedia
+//https://en.wikipedia.org/wiki/Longest_common_subsequence_problem#:~:text=The%20longest%20common%20subsequence%20(LCS,(often%20just%20two%20sequences).
