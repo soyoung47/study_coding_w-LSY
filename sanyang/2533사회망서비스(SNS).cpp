@@ -19,7 +19,7 @@ int dpFunc(int cur, int pre, int state){
     int &cache = dp[cur][state];
     if (cache != -1) return cache;
     int ans = 0;
-    //현재 노드가 얼리어답터인 경우
+    //현재 노드가 얼리어답터가 아닌 경우
     if (state == 0){
         int len = adj[cur].size();
         for (int i=0; i<len; i++){
@@ -30,7 +30,7 @@ int dpFunc(int cur, int pre, int state){
         }
         return cache=ans;
     }
-    //현재 노드가 얼리어답터가 아닌 경우
+    //현재 노드가 얼리어답터인 경우 (state == 1)
     else {
         int len=adj[cur].size();
         int ret1=0, ret2=0;
