@@ -1,3 +1,4 @@
+// sol 1
 /*
  knapsack algorithm
  40568KB, 36ms
@@ -23,3 +24,29 @@ int main(){
     printf("%d", dp[N][K]);
     return 0;
 }
+
+
+// sol 2
+/*
+ knapsack algorithm
+ 1388KB, 8ms
+ */
+
+#include <stdio.h>
+using namespace std;
+
+int main() {
+    //#item:N, maxWeight:K, each item's weight:W, each item's value:V
+    int N, K, W, V;
+    scanf("%d %d", &N, &K);
+    int dp[100001] = {};
+    for (int i = 1; i <= N; i++) {
+        scanf("%d %d", &W, &V);
+        for (int j = K; j >= W; j--) {
+            if (dp[j - W] + V > dp[j]) dp[j] = dp[j - W] + V;
+        }
+    }
+    printf("%d", dp[K]);
+    return 0;
+}
+//ref: https://www.acmicpc.net/source/24264855
